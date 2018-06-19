@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    max-height: 100%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tk-adelle {
+    font-family: "adelle", serif;
+}
+
+.lang-orange {
+    color: #f15a22;
+}
+td {
+    border: 1px solid lightgrey;
+}
+.nav-links {
+    height: 5em;
+    line-height: 4em;
+    transition: 100ms ease-in;
+}
+.nav-links:hover {
+    height: 5em;
+    line-height: 4em;
+    background: #f15a22;
+    color: #fff !important;
+}
+
+.active {
+    background: #f15a22 !important;
+    color: #fff !important;
+}
+
+.instructor-space-link {
+    color: #fff;
+    font-weight: 600;
+    background: #95989A;
+    cursor: pointer;
+    border: 1px solid #95989A;
+    padding: .6em;
+    text-decoration: none;
+    transition: 100ms ease-in;
+}
+.instructor-space-link:hover {
+    color: #f15a22;
+    font-weight: 600;
+    background: none;
+    border: 1px solid #f15a22;
+    text-decoration: none;
+}
+
+.icon-style {
+    cursor: pointer;
+    color: #95989A;
+    transition: 100ms ease-in;
+    text-decoration: none;
+}
+.icon-style:hover {
+    color: #f15a22;
+}
+.instructor-badge {
+    display: block;
+    position: absolute;
+    font-size: 12px !important;
+    line-height: 1.2em !important;
+    font-weight: 400 !important;
+    width: 120px;
+    top: 0;
+    right: 0;
+    padding: .5em 0 0 0 !important;
+    border-radius: 0 !important;
+    box-shadow: 0 2px 3px #95989A;
+
+}
+.instructor-badge-highlight {
+    padding-top: .4em;
+    width: 100%;
+    margin: 2px 0 0 0;
+    text-transform: uppercase;
+    background: white;
+    color: #007bff;
+}
+
+
+#csis-footer {
+    height: 180px;
+    max-height: 100%;
+}
+.download-link {
+    color: #6c757d;
+}
+.download-link:hover {
+    color: #f15a22;
+    text-decoration: none;
+}
+.download-link::after {
+    content: ' \f019';
+    font-family: FontAwesome;
+}
+.article-link, .text-link {
+    color: #6c757d;
+}
+.article-link:hover, .text-link:hover {
+    color: #f15a22;
+    text-decoration: none;
+}
+.article-link::after {
+    content: ' \00bb';
+    font-size: 22px;
+}
+#faq p, #how-to p, #important-links ul li {
+    color: #6c757d !important;
+}
+
+#faq p:first-of-type::before {
+    content: 'A: ';
+    color: #f15a22;
+    font-weight: 600;
+}
+.secondary-nav>div>ul>li {
+    display: inline-block;
+}
+li.secondary-nav-items a {
+    color: #95989A;
+}
+
+.secondary-nav-btn {
+    cursor: pointer;
+    border: none;
+    height: 65px;
+    background: transparent;
+}
+.secondary-nav-btn:hover {
+    color: #f15a22;
+    text-decoration: none;
+}
+.active-link {
+    color: #f15a22 !important;
+    border-bottom: 4px solid #f15a22;
+}
+.ut-link {
+    text-decoration: none;
+
+}
+.u-transfer-icon {
+    color: #95989A;
+    cursor: pointer;
+    border: 2px solid #95989A;
+    padding: 0 2px;
+}
+.u-transfer-icon:hover {
+    border: 2px solid #f15a22;
+    padding: 0 2px;
+    color: #f15a22;
+}
+.video-description {
+    float: right;
+}
